@@ -23,7 +23,7 @@ const listRepos = async username => {
 }
 
 const usernameInput = document.getElementById('username-input');
-usernameInput.value = 'jlengstorf';
+usernameInput.value = 'dmaier-indeed';
 usernameInput.onchange = (e) => {
     listRepos(e.target.value);
 }
